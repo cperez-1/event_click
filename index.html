@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Event Click</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <section class="search">
+                <h1> Dojonary </h1>
+                <input type="text" class="input_search" placeholder="Search">
+                <button class="btn" onClick="chanche_login();" id="btn_login">Login</button>
+            </section>
+        </header>
+        <main>
+            <section id="likes">
+                <section class="container_likes">
+                    <section class="desc_short">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="btn_likes" onClick="add_like('ninja');">13 likes</button>
+                    </section>
+                    <section class="desc_full">
+                        <h3>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#"> ninjutsu </a></h3>
+                    </section>
+                </section>
+                <section class="container_likes">
+                    <section class="desc_short">
+                        <h1>ninja 2</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="btn_likes" onClick="add_like('ninja 2');">37 likes</button>
+                    </section>
+                    <section class="desc_full">
+                        <h3>A <a href> programmer </a> breaks down problems whit <a href="#"> zen</a>-like focus</h3>
+                    </section>
+                </section>
+            </section>
+            <section id="defined">
+                <section class="container_defined">
+                    <h1>Dojonary is defined by <span>YOU</span></h1>
+                    <button class="btn_add" id="btn_add_definition" onClick="remove_btn_add();">Add Definition</button>
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px solid red;
+}
+
+.container {
+    width: 53%;
+    margin-left: 22%;
+}
+
+.container header {
+    height: 80px;
+}
+
+header {
+    background-color:lightgray;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.search > .input_search {
+    width: 500px;
+}
+
+.search > .input_search::placeholder {
+   font-weight: bold;
+   font-size: 18px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+}
+
+.search h1 {
+    font-size: 36px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 5px 2px 2px black;
+    width: 100px; 
+}
+
+.btn:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+/********************************/
+
+body main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#likes {
+    width: 75%;
+}
+
+.container_likes {
+    padding: 16px;
+    border: solid 2px black;
+    margin-top: 30px;
+    display: flex;
+}
+
+.container_likes h1 {
+    font-size: 30px;
+}
+
+#defined {
+    width: 23%;
+}
+
+.container_defined {
+    padding: 16px;
+    border: solid 2px black;
+    margin-top: 30px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_defined h1 {
+    font-size: 25px;
+}
+
+.desc_short {
+    text-align: center;
+}
+
+.desc_short p {
+    margin-top: 10px;
+}
+
+.desc_short button {
+    margin-top: 18px;
+}
+
+.desc_full {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    padding: 0px 75px;
+}
+
+.desc_full h3{
+    font-size: 22px;
+}
+
+.btn_likes {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    width: 100px;
+    background-color:orange;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 5px 2px 2px black; 
+}
+
+.btn_likes:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.btn_add {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color:green;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 5px 2px 2px black; 
+}
+
+.btn_add:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.container_defined button {
+    margin-top: 15px;
+}
+
+.container_defined h1 span {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
